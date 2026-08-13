@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>School Management System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="page">
+
+        <div class="login-card">
+
+            <!-- ================= LEFT PANEL ================= -->
+
+            <section class="left-panel">
+
+                <!-- SCHOOL LOGO -->
+                <div class="school-logo">
+                    <img src="logo.jpeg" alt="School Logo">
+                </div>
+
+
+                <!-- SCHOOL CONTENT -->
+                <div class="school-content">
+
+                    <h1>
+                        School<br>
+                        Management<br>
+                        System
+                    </h1>
+
+                    <div class="green-line"></div>
+
+                    <p>
+                        Empowering educators,<br>
+                        inspiring students,<br>
+                        building the future.
+                    </p>
+
+                </div>
+
+
+                <!-- ================= SCHOOL ILLUSTRATION ================= -->
+
+                <div class="school-illustration">
+
+                    <!-- FLAG -->
+                    <div class="flag">
+                        <span></span>
+                    </div>
+
+                    <!-- SCHOOL ROOF -->
+                    <div class="school-roof"></div>
+
+                    <!-- SCHOOL BUILDING -->
+                    <div class="school-building">
+
+                        <div class="window left-window"></div>
+
+                        <div class="window right-window"></div>
+
+                        <div class="door"></div>
+
+                    </div>
+
+                    <!-- CLOCK -->
+                    <div class="clock">
+
+                        <div class="clock-hand hour"></div>
+
+                        <div class="clock-hand minute"></div>
+
+                    </div>
+
+                    <!-- GROUND -->
+                    <div class="school-ground"></div>
+
+                    <!-- BOOKS -->
+                    <div class="books">
+
+                        <div class="book book-one"></div>
+                        <div class="book book-two"></div>
+                        <div class="book book-three"></div>
+                        <div class="book book-four"></div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- ================= RIGHT PANEL ================= -->
+
+            <section class="right-panel">
+
+                <!-- WELCOME SECTION -->
+
+                <div class="welcome-section">
+
+                    <!-- TEACHER ICON -->
+                    <div class="teacher-icon">
+
+                        <div class="cap"></div>
+
+                        <div class="cap-bottom"></div>
+
+                        <div class="tassel"></div>
+
+                    </div>
+
+
+                    <!-- WELCOME TEXT -->
+
+                    <div class="welcome-text">
+
+                        <div class="welcome">
+                            Welcome back!
+                        </div>
+
+                        <h2>
+                            Hello, Teacher
+                        </h2>
+
+                        <p class="subtitle">
+                            Sign in to continue to your dashboard
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- DIVIDER -->
+
+                <div class="divider"></div>
+
+
+                <!-- ================= LOGIN FORM ================= -->
+
+                <form id="loginForm">
+
+
+                    <!-- EMAIL -->
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Email address
+                        </label>
+
+                        <div class="input-box">
+
+                            <span class="input-icon email-icon">
+                                ✉
+                            </span>
+
+                            <input
+                                type="email"
+                                id="email"
+                                placeholder="you@school.edu"
+                                autocomplete="email"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PASSWORD -->
+
+                    <div class="form-group password-group">
+
+                        <label for="password">
+                            Password
+                        </label>
+
+                        <div class="input-box password-box">
+
+
+                            <!-- CLEAN LOCK ICON -->
+                            <span
+                                class="input-icon password-icon"
+                                aria-hidden="true">
+                            </span>
+
+
+                            <!-- PASSWORD INPUT -->
+
+                            <input
+                                type="password"
+                                id="password"
+                                placeholder="Enter your password"
+                                autocomplete="current-password"
+                                required
+                            >
+
+
+                            <!-- EYE BUTTON -->
+
+                            <button
+                                type="button"
+                                class="eye-button"
+                                id="togglePassword"
+                                aria-label="Show password">
+
+                                <span
+                                    class="eye"
+                                    aria-hidden="true">
+                                </span>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- FORGOT PASSWORD -->
+
+                    <div class="forgot-row">
+
+                        <a
+                            href="#"
+                            id="forgotPassword">
+
+                            Forgot password?
+
+                        </a>
+
+                    </div>
+
+
+                    <!-- SIGN IN BUTTON -->
+
+                    <button
+                        type="submit"
+                        class="signin-button">
+
+                        <span>
+                            Sign in
+                        </span>
+
+                        <span class="arrow">
+                            →
+                        </span>
+
+                    </button>
+
+                </form>
+
+
+                <!-- ================= OR ================= -->
+
+                <div class="or-divider">
+
+                    <span></span>
+
+                    <p>
+                        or
+                    </p>
+
+                    <span></span>
+
+                </div>
+
+
+                <!-- ================= SECURITY BOX ================= -->
+
+                <div class="security-box">
+
+                    <div class="security-icon">
+                        ✓
+                    </div>
+
+                    <div class="security-text">
+
+                        <strong>
+                            Secure access for authorized
+                        </strong>
+
+                        <span>
+                            school staff only.
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ACCESS MESSAGE -->
+
+                <p class="access-text">
+
+                    Need access?
+
+                    <a href="#">
+                        Contact your school administrator.
+                    </a>
+
+                </p>
+
+            </section>
+
+        </div>
+
+
+        <!-- ================= BOTTOM SECURITY ================= -->
+
+        <div class="bottom-security">
+
+            <div class="bottom-check">
+                ✓
+            </div>
+
+            <span>
+                Your data is safe and secure with us.
+            </span>
+
+        </div>
+
+    </main>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
