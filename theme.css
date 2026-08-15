@@ -1,0 +1,59 @@
+/* =========================================================
+   GLOBAL THEME
+   Change colors here only — the whole page follows.
+   ========================================================= */
+
+:root {
+
+    /* ---- BRAND ---- */
+    --brand: #6b843c;
+    --brand-dark: #5f7635;
+    --brand-alt: #71883f;
+    --on-brand: #ffffff;
+
+    /* ---- SURFACES ---- */
+    --bg-page: #f4f1e8;
+    --surface: #fffefa;
+    --surface-alt: #f5f2e9;
+    --surface-muted: #faf8f1;
+
+    /* ---- TEXT ---- */
+    --text: #111510;
+    --text-strong: #20241c;
+    --text-muted: #66717b;
+    --text-placeholder: #8e9aa0;
+
+    /* ---- LINES ---- */
+    --border: #d9d5ca;
+    --divider: #ddd9cf;
+
+    /* ---- SHADOWS / RINGS ---- */
+    --shadow-card: 0 18px 45px rgba(70, 76, 48, 0.12);
+    --shadow-icon: 0 10px 22px rgba(70, 86, 37, 0.15);
+    --shadow-book: 0 5px 10px rgba(54, 62, 36, 0.14);
+    --focus-ring: 0 0 0 3px rgba(107, 132, 60, 0.08);
+
+    /* ---- EYE BUTTON ---- */
+    --eye: #64748b;
+    --eye-hover: #405a16;
+    --eye-hover-bg: rgba(64, 90, 22, 0.06);
+
+    /* ---- ILLUSTRATION ---- */
+    --ill-ground: #b5c199;
+    --ill-building: rgba(216, 218, 204, 0.9);
+    --ill-roof: #aeb99f;
+    --ill-pole: #a8b39a;
+    --ill-flag: #b9c1a9;
+    --ill-clock-face: #f8f5ea;
+    --ill-clock-border: #a8ae99;
+    --ill-clock-hand: #8c9480;
+    --ill-window: #f2f1e8;
+    --ill-window-border: #b5baa9;
+    --ill-door: #b8bbaa;
+
+    /* ---- BOOKS ---- */
+    --book-one: #71873e;
+    --book-two: #50682b;
+    --book-three: #9ba77b;
+    --book-four: #6f873e;
+}
