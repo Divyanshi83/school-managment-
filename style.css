@@ -790,67 +790,65 @@ body {
 /* =========================================================
    EYE BUTTON
    ========================================================= */
-
 .eye-button {
     position: absolute;
-
-    right: 15px;
+    right: 16px;
     top: 50%;
-
     transform: translateY(-50%);
 
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
 
     padding: 0;
     margin: 0;
 
     border: none;
-
+    outline: none;
     background: transparent;
 
     display: flex;
-
     align-items: center;
     justify-content: center;
 
+    color: #64748b;
     cursor: pointer;
 
-    z-index: 10;
+    border-radius: 6px;
+
+    transition:
+        color 0.2s ease,
+        background-color 0.2s ease;
 }
 
-.eye {
-    position: relative;
+.eye-icon {
+    width: 20px;
+    height: 20px;
 
     display: block;
 
-    width: 22px;
-    height: 14px;
-
-    border: 2px solid #6b843c;
-
-    border-radius: 50%;
+    transition: transform 0.2s ease;
 }
 
-.eye::after {
-    content: "";
-
-    position: absolute;
-
-    left: 50%;
-    top: 50%;
-
-    width: 5px;
-    height: 5px;
-
-    transform: translate(-50%, -50%);
-
-    border-radius: 50%;
-
-    background: #6b843c;
+.eye-button:hover {
+    color: #405a16;
+    background-color: rgba(64, 90, 22, 0.06);
 }
 
+.eye-button:hover .eye-icon {
+    transform: scale(1.05);
+}
 
+.eye-button:active {
+    transform: translateY(-50%) scale(0.95);
+}
+
+.password-box {
+    position: relative;
+}
+
+.password-box input {
+    padding-right: 52px;
+}
 /* =========================================================
    FORGOT PASSWORD
    ========================================================= */
